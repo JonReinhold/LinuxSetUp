@@ -1,1 +1,1 @@
-./mint.sh
+screenfetch
