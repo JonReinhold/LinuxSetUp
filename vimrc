@@ -9,3 +9,16 @@ if has('gui running')
 set synmaxcol=200
 set wildmenu
 set wildmode=full
+set nowrap        
+set tabstop=4     
+set backspace=indent,eol,start                  
+set autoindent    
+set copyindent    
+set shiftwidth=4  
+set shiftround    
+set showmatch     
+set ignorecase    
+set smartcase                     
+set smarttab                  
+set hlsearch      
+set incsearch    
