@@ -25,3 +25,5 @@ set smarttab
 set hlsearch      
 set incsearch    
 set showcmd
+set backspace=indent,eol,start
+
