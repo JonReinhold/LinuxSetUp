@@ -7,7 +7,8 @@ inoremap <C-1> <C-x><C-1>
 if has('gui running')
   set guifont=Terminal:h9
  endif
- 
+
+syntax on
 set synmaxcol=200
 set wildmenu
 set wildmode=full
