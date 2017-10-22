@@ -1,7 +1,3 @@
-if has('gui running')
-  set guifont=Terminal:h9
- endif
- 
 colorscheme elflord
 set lines=60 columns=108
 set relativenumber
