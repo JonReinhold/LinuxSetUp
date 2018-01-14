@@ -13,3 +13,5 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias ping='ping -c 5'
 alias meminfo='free -m -l -t'
+
+weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-<YOURZIPORLOCATION>}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
