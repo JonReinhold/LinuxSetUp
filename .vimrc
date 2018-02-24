@@ -23,4 +23,6 @@ set incsearch
 set showcmd
 set backspace=indent,eol,start
 set showcmd     
-set wildmenu
+set cursorline
+set guicursor+=n:hor20-Cursor/lCursor
+
